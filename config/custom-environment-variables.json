@@ -1,0 +1,8 @@
+{
+  "pageUrl": "PAGE_URL",
+  "priceId": "PRICE_ID",
+  "preferredPrice": "PREFERRED_PRICE",
+  "gmailAppEmailAddress": "GMAIL_APP_EMAIL_ADDRESS",
+  "gmailAppEmailPassword": "GMAIL_APP_EMAIL_PASSWORD",
+  "contactEmailAddress": "CONTACT_EMAIL_ADDRESS"
+}
