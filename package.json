@@ -1,0 +1,17 @@
+{
+  "name": "price-checker",
+  "version": "1.0.0",
+  "description": "Node.js app for monitoring prices",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Nemanja Stojanovic",
+  "license": "ISC",
+  "dependencies": {
+    "cheerio": "^1.0.0-rc.3",
+    "cron": "^1.8.2",
+    "nodemailer": "^6.4.2",
+    "puppeteer": "^2.1.1"
+  }
+}
