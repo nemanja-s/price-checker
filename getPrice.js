@@ -9,11 +9,8 @@ module.exports = async page => {
     let price = 0;
 
     $(`#${priceId}`, html).each(function() {
-        console.log(this);
         let euroPrice = $(this).text();
-        console.log({ euroPrice });
         price = Number(euroPrice.replace(',', '.').replace(/[^0-9.]+/g, ''));
-        console.log({ price })
     });
 
     return price;

@@ -11,7 +11,6 @@ const preferredPrice = config.get('preferredPrice');
 
     const job = new CronJob('0 */5 * * * *', async () => {
         const currentPrice = await getPrice(page);
-        console.log({ currentPrice });
         if(currentPrice && currentPrice < preferredPrice)
             await sendEmail(currentPrice);
     });
