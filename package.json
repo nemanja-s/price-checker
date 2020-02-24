@@ -3,9 +3,6 @@
   "version": "1.0.0",
   "description": "Node.js app for monitoring prices",
   "main": "index.js",
-  "scripts": {
-    "start": "node index.js"
-  },
   "author": "Nemanja Stojanovic",
   "license": "ISC",
   "dependencies": {
