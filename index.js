@@ -9,7 +9,7 @@ const preferredPrice = config.get('preferredPrice');
 (async () => {
     const page = await loadPage();
 
-    const job = new CronJob('0 */10 * * * *', async () => {
+    const job = new CronJob('0 */5 * * * *', async () => {
         const currentPrice = await getPrice(page);
         console.log({ currentPrice });
         if(currentPrice && currentPrice < preferredPrice)
